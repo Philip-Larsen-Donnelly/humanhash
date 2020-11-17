@@ -8,7 +8,7 @@ functions. For tighter control over the output, see :class:`HumanHasher`.
 import operator
 import uuid as uuidlib
 
-
+# consider using https://en.wiktionary.org/wiki/Appendix:Common_short_words_in_the_English_language
 DEFAULT_WORDLIST = (
     'ack', 'alabama', 'alanine', 'alaska', 'alpha', 'angel', 'apart', 'april',
     'arizona', 'arkansas', 'artist', 'asparagus', 'aspen', 'august', 'autumn',
